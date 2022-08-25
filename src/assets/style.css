@@ -1,7 +1,7 @@
 @import "./base.css";
 
 .calc{
-  border: 3px solid #73737aa4;
+  border: 3px solid #5b1212a4;
   padding: 30px;
   max-width: 830px;
   display: block;
@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 main {
@@ -37,12 +38,12 @@ label{
   font-size: 1.1em;
 }
 .resultado {
-  background-color: #73737aa4;
+  background-color: #5b1212a4;
   display: flex;
   padding: 30px;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(1, 0, 0);
 }
 .resultado span {
   font-size: 2em;
